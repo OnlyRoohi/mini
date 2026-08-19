@@ -2,6 +2,8 @@ import aiohttp, aiofiles, asyncio, base64, logging
 import os, platform, random, re, socket
 import sys, time, textwrap
 
+asyncio.set_event_loop(asyncio.new_event_loop())
+
 from os import getenv
 import asyncio
 from io import BytesIO
