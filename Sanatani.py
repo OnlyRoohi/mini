@@ -148,7 +148,7 @@ __start_time__ = time.time()
 
 from motor.motor_asyncio import AsyncIOMotorClient
 # start and run
-HEALTHY = "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority" #DONT CHANGE THIS LATEST PYTGCALLS
+HEALTHY = "mongodb+srv://TEAM-KRITI:6MUrAhEdww12DaV6@cluster0.53piq9u.mongodb.net/?appName=Cluster0" #DONT CHANGE THIS LATEST PYTGCALLS
 mongo_client = AsyncIOMotorClient(HEALTHY)
 db = mongo_client["python_xyz"]  # Replace with your DB name
 bot_collection = db["bot_data"]  # Collection to store bot info
